@@ -1,0 +1,315 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-xs {
+    font-size: 0.75rem !important;
+    line-height: 1rem !important; /* 16px */
+}
+
+.text-sm {
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+}
+
+.text-base {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+}
+
+.text-lg {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+}
+
+.text-xl {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+}
+
+.text-thin {
+    font-family: gotham-thin;
+}
+
+.max-width {
+    max-width: 1440px;
+}
+
+.transition-start {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.transition-end {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.transition {
+    transition-duration: 800ms;
+}
+
+.btn-block {
+    min-width: 135px;
+}
+
+@media screen and (max-width: 768px) {
+    .btn-full {
+        width: 100%;
+    }
+}
+
+.btn-first {
+    color: #fdfdfd;
+    background-color: #c19d6c;
+}
+
+.btn-first:hover {
+    color: #c19d6c;
+    background-color: #fdfdfd;
+    border: 1px solid #c19d6c !important;
+}
+
+.btn-second {
+    color: #c19d6c;
+    background-color: #fdfdfd;
+    border: 1px solid #c19d6c !important;
+}
+
+.btn-second:hover {
+    background-color: #c19d6c;
+    color: #fdfdfd;
+}
+
+.text-active {
+    color: #c19d6c;
+}
+
+.scroll {
+    overflow: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.section-title > h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section-title > p {
+    word-spacing: 1px;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 0 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .section-title > h1 {
+        font-size: 20px;
+    }
+
+    .section-title > p {
+        font-size: 12px;
+        padding: 0;
+    }
+}
+
+.subscription-card {
+    border-radius: 30px 30px 0 0;
+    background-color: #fdfdfd;
+}
+
+.subscription-card button {
+    background-color: #87bbd1;
+    border: none;
+    color: black;
+}
+
+.subscription-card-pro {
+    border-radius: 30px 30px 0 0;
+    background-color: #e0eff5;
+}
+
+.subscription-card-pro button {
+    background-color: #2d6075;
+    border: none;
+    color: white;
+}
+
+.subscription-card-enterprise {
+    border-radius: 0 0 15px 15px;
+    background-color: #c19d6c;
+}
+
+.grid-center {
+    display: grid;
+    place-content: center;
+    padding: 100px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-center {
+        padding: 50px 0;
+    }
+}
+
+#banner {
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 240px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 20px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.sub-title {
+    word-spacing: 1px;
+    font-weight: 100;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .sub-title {
+        font-size: 12px;
+    }
+}
+
+#clients {
+    background-color: #f6f6f6;
+    min-height: 268px;
+}
+
+#content .sub-title.text-secondary {
+    padding: 0 200px;
+}
+
+@media screen and (max-width: 992px) {
+    #content .sub-title.text-secondary {
+        padding: 0;
+    }
+}
+
+#content h4 {
+    background-color: #f6f6f6;
+    padding: 10px 20px;
+}
+
+#content .content-feature {
+    width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+    #content .content-feature {
+        width: 100%;
+    }
+}
+
+#subscription {
+    display: grid;
+    place-content: center;
+}
+
+.paginate-buttons > button {
+    width: 20px;
+    height: 7px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin: 0 5px;
+    border: none;
+}
+
+@keyframes example {
+    from {
+        background-color: #d9d9d9;
+        transform: scaleX(0.8);
+    }
+    to {
+        background-color: #66523b;
+        transform: scaleX(1);
+    }
+}
+
+.paginate-buttons > button.active {
+    background-color: #66523b;
+    width: 45px;
+    animation-name: example;
+    animation-duration: 500ms;
+}
+
+#banner2 {
+    background: rgb(207, 199, 187);
+    min-height: 300px;
+    position: relative;
+}
+
+#banner2 > .banner2-overlay {
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+#banner2 > .banner2-content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 11;
+}
+
+@media screen and (min-width: 992px) {
+    #banner2 > .banner2-content > p {
+        padding: 0 100px;
+    }
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.transition {
+    animation-name: slide;
+    animation-duration: 500ms;
+}
+
+#footer-content {
+    padding: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    #footer-content {
+        padding: 40px;
+    }
+}
