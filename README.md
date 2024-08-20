@@ -8,26 +8,36 @@ Untuk menjalankan project, harap lakukan langkah-langkah dibawah ini:
 
 1. copy file .env.example dan ubah nama file menjadi .env
 
-2. install composer dependency dan node modules
+2. install composer dependency dan node modules dependency
 
 ```shell
-$  composer install
+composer install
 
-$ npm install
+npm install
 ```
 
 3. generate key dan migrate database
 
 ```shell
-$  php artisan key:generate
+php artisan key:generate
 
-$  php artisan migrate -seed
+php artisan migrate -seed
 ```
 
 4. build file js
 
 ```shell
-$  npm run build
+npm run build
 # atau
-$  npm run dev
+npm run dev
 ```
+
+## Preview
+
+### in browser
+
+![alt text](https://github.com/andibachtiar/kelas-dot-com-fe-test/blob/assets/images/preview1.png?raw=true)
+
+### in mobile
+
+![alt text](https://github.com/andibachtiar/kelas-dot-com-fe-test/blob/assets/images/preview2.png?raw=true)
