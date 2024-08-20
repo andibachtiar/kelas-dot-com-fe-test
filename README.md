@@ -36,8 +36,8 @@ npm run dev
 
 ### in browser
 
-![alt text](https://github.com/andibachtiar/kelas-dot-com-fe-test/blob/assets/images/preview1.png?raw=true)
+![alt text](https://github.com/andibachtiar/kelas-dot-com-fe-test/blob/public/assets/images/preview1.png?raw=true)
 
 ### in mobile
 
-![alt text](https://github.com/andibachtiar/kelas-dot-com-fe-test/blob/assets/images/preview2.png?raw=true)
+![alt text](https://github.com/andibachtiar/kelas-dot-com-fe-test/blob/public/assets/images/preview2.png?raw=true)
